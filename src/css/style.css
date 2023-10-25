@@ -1,0 +1,54 @@
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #d4cfa5;
+  font-family: TINY;
+}
+
+.h1, .h2 {
+  text-align: center;
+}
+
+.titulo {
+  margin: 2.5% 0px 2.5% 0px;
+  text-align: center;
+  font-size: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  background-color: #230b00;
+  height: 100%;
+  width: 100%;
+}
+
+.colorrecuadro{
+  background-color: #611f00;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* encabezado */
+header {
+  background-color: #f8ecd4;
+  height: 75px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "btn img";
+  align-items: center;
+}
+
+.btn-header {
+  margin: 0 1.5% 0 1.5%;
+  height: 50%;
+  width: 15%;
+}
+
+
