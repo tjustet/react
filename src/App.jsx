@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar/"
 import ItemListContainer from "./components/ItemListContainer";
-import ItemList from "./components/ItemList";
-import Item from "./components/Item";
 import './css/style.css';
 import { BrowserRouter } from "react-router-dom";
 
@@ -20,7 +18,6 @@ const App = () => {
           </div>
         </div>
       </BrowserRouter>
-
     )
 }
 

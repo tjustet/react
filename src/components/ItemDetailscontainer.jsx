@@ -1,7 +1,6 @@
 import React from "react";
 
 const ItemDerailContainer = () => {
-        const ItemListContainer = () => {
             const menu = [
                 {alimento: "hamburguesa", precio: 100, foto: "./img/hamburguesas.jpeg", descripcion: "hamburgues"},
                 {alimento: "empanada", precio: 50, foto: "./img/empanadas.jpeg", descripcion: "empanada"},
@@ -28,7 +27,6 @@ const ItemDerailContainer = () => {
                 <ItemDetails menu={menu}/>
             </>
         )
-    }
 }
 
 

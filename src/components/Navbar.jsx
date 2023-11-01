@@ -10,7 +10,7 @@ function Navbar() {
     <header >
         
         <Menu>
-        {({ isOpen }) => (
+        {({ }) => (
             <>
             <Link to="./">Justettini</Link>
             <MenuButton bg="#d4cfa5" className='btn-header'>

@@ -1,9 +1,10 @@
 import React from "react";
-import {Card, CardBody, Stack, Heading, Text, Divider, Button, Link} from '@chakra-ui/react'
+import {Card, CardBody, Stack, Heading, Text, Divider, Button, Link} from '@chakra-ui/react';
 
-
-const Item = ({id, alimento, precio, imagen, description}) => {
+const Item = ({id, alimento, precio, imagen, descripcion}) => {
+    console.log(id, alimento, precio, imagen, descripcion);
     return (
+        <>
         <div className={"body"}>
             <Card maxW={"sm"}>
                 <CardBody className={"colorrecuadro"}>
@@ -11,7 +12,7 @@ const Item = ({id, alimento, precio, imagen, description}) => {
                         <img src={{imagen}} alt={{alimento}} />
                         <Heading size={'md'}>{{alimento}}</Heading>
                         <Text className={"h2"}>Precio: {{precio}}</Text>
-                        <Text className={"h2"}>Description: {{description}}</Text>
+                        <Text className={"h2"}>Description: {{descripcion}}</Text>
                     </Stack>
                 </CardBody>
                 <Divider></Divider>
@@ -22,7 +23,7 @@ const Item = ({id, alimento, precio, imagen, description}) => {
                 </Button>
             </Card>
         </div>
-
+        </>
 
 
 
